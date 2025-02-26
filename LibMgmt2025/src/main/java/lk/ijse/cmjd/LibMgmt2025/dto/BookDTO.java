@@ -21,7 +21,7 @@ public class BookDTO implements Serializable {
     private Double price;
     private Integer totalQty;
     private Integer availableQty;
-    private LocalDate lastUpdateDate;
-    private Time lastUpdateTime;
+    private String lastUpdateDate;
+    private String lastUpdateTime;
 
 }
